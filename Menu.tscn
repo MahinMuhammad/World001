@@ -355,3 +355,4 @@ custom_styles/normal = SubResource( 10 )
 text = "Exit"
 
 [connection signal="button_up" from="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/MarginContainer/New Game Button" to="." method="_on_New_Game_Button_button_up"]
+[connection signal="button_up" from="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/MarginContainer3/Exit Button" to="." method="_on_Exit_Button_button_up"]
